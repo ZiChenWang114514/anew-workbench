@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>使用指南 · Anew Workbench</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">A</span><span>Anew Workbench</span></a>
+      <nav aria-label="主导航"><a href="demo.html">静态演示</a><a aria-current="page" href="docs.html">使用指南</a><a href="privacy.html">隐私</a></nav>
+    </header>
+    <main class="page-shell docs-layout">
+      <aside><strong>快速开始</strong><a href="#install">安装</a><a href="#import">导入</a><a href="#organize">整理</a><a href="#export">导出</a><a href="#verify">校验</a></aside>
+      <article>
+        <div class="eyebrow">DOCUMENTATION</div>
+        <h1>从空白工作区开始</h1>
+        <p class="lead">程序是本地题库编辑器，不是在线上传服务。你可以不联网完成导入、整理、复制和大部分导出。</p>
+        <h2 id="install">1. 安装或直接运行</h2>
+        <p>安装版写入当前用户目录；便携版解压后直接运行。两者都将用户数据保存在 <code>%LOCALAPPDATA%\AnewWorkbench</code>，卸载默认不删除工作区。</p>
+        <div class="actions compact"><a class="button primary" href="https://github.com/ZiChenWang114514/anew-workbench/releases/latest/download/AnewWorkbench-win-x64-Setup.exe">安装版</a><a class="button secondary" href="https://github.com/ZiChenWang114514/anew-workbench/releases/latest/download/AnewWorkbench-win-x64-portable.zip">便携版</a></div>
+        <h2 id="import">2. 拖拽到暂存区</h2>
+        <p>支持正文与 Supporting Information PDF、CSV、TSV、XLSX 数据集，以及 Markdown、TXT、DOCX、PDF、CSV、XLSX 题目文件。导入不会直接覆盖工作区。</p>
+        <h2 id="organize">3. 预览并确认</h2>
+        <p>检查文件分类、题目拆分和字段映射后再确认。导入错误时可取消暂存；已确认内容可软删除并从回收站恢复。</p>
+        <h2 id="export">4. 复制与导出</h2>
+        <p>可复制单题或整套题目，并导出 Markdown、XLSX、CSV ZIP、学生版或专家版 PDF、原始资源与完整 .anewpack。</p>
+        <h2 id="verify">5. 核对下载</h2>
+        <p>从 GitHub Releases 下载 <code>SHA256SUMS.txt</code>，使用 Windows PowerShell 的 <code>Get-FileHash 文件名 -Algorithm SHA256</code> 与清单比对。</p>
+      </article>
+    </main>
+    <footer><span>Anew Workbench</span><a href="privacy.html">隐私说明</a></footer>
+  </body>
+</html>
