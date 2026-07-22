@@ -6,9 +6,10 @@
 
 ## 下载
 
+- [Windows 安装版](https://github.com/ZiChenWang114514/anew-workbench/releases/latest/download/AnewWorkbench-win-x64-Setup.exe)
 - [Windows 便携版](https://github.com/ZiChenWang114514/anew-workbench/releases/latest/download/AnewWorkbench-win-x64-portable.zip)
 - [SHA-256 清单](https://github.com/ZiChenWang114514/anew-workbench/releases/latest/download/SHA256SUMS.txt)
 
-便携版解压后运行 `AnewWorkbench.exe`。完整工作区可导出为 `.anewpack` 并交给其他出题人继续编辑；公开网站本身不接收或保存论文、题库与工作区。
+安装版和便携版均经过真实启动烟雾测试；便携版解压后运行 `AnewWorkbench.exe`。完整工作区可导出为 `.anewpack` 并交给其他出题人继续编辑；公开网站本身不接收或保存论文、题库与工作区。
 
 公开页面中的药物化学数据均为完全合成的界面演示，不代表真实项目或实验结果。
